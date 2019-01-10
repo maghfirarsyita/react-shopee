@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Project Structure
 
+```
 ├── public              # Public folder.
 │   └── index.html      # The HTML file of the project.
 │   └── favicon.co      # Icon file.
@@ -13,12 +14,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 │   ├── components      # The React components which includes the javascripts, html and css.
 │   ├── test            # Unit testing file.
 │   └── index.js        # Main of application.
+│   └── setupTests.js   # Setup file for unit testing.
 ├── .dockerignore       # Docker exclude file or directory from Dockerfile.
 ├── .gitignore          # Ignored files when pushed to git.
 ├── Dockerfile          # Docker deploy script.
 ├── package-lock.json   # Automatically generated when installing node packages.
 ├── package.json        # List of dependencies that will be used in app.
 └── yarn.lock           # Describes which packages version are installed at time.
+
+```
 
 ## Available Scripts
 
