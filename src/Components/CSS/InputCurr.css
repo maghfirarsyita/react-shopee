@@ -1,0 +1,121 @@
+h1 {
+    color: blue;
+}
+
+.shad {
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+}
+
+.card-section{
+    padding: 24px;
+    position: relative;
+    margin-bottom: 28px;
+}
+
+.input-section{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.title-section{
+    letter-spacing: 1.5px;
+    margin-top: 24px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.padding-left-right{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.curr-name{
+    font-size: 22px;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.curr-value{
+    font-size: 22px;
+    float: right;
+    margin-bottom: 4px;
+}
+
+.sub-name{
+    color: grey;
+    float: left;
+    margin-bottom: 4px;
+}
+
+.sub-value{
+    float: right;
+    margin-bottom: 4px;
+    color: grey;
+}
+
+.dropdown-section{
+    margin-top: 24px;
+    width: 85%;
+    font-size: 18px;
+    height: 60px;
+    border: none;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.lower-wrapper{
+    overflow: hidden;
+}
+
+.btn-section{
+    margin-top: 24px;
+    width: 15%;
+    font-size: 18px;
+    height: 60px;
+}
+
+.input-box{
+    height: 48px;
+    width: 70%!important;
+    font-size: 22px!important;
+    border: none;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.btn-box{
+    height: 48px;
+    width: 15%!important;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    background-color: #76a1e2;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.add-section{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 28px;
+}
+
+.delete-btn{
+    border-radius: 100%;
+    width: 30px;
+    height: 32px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 21px;
+    color: white;
+    background: #dc3545;
+    position: absolute;
+    right: -17px;
+    top: -17px;
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
